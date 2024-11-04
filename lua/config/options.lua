@@ -6,6 +6,7 @@ vim.g.autoformat = true
 local opt = vim.opt
 
 opt.termguicolors = true
+opt.guicursor = ""
 opt.cursorline = true
 opt.list = true
 opt.signcolumn = "yes"
