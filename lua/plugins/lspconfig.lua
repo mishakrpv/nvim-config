@@ -99,7 +99,9 @@ return {
             }
           }
         }
-      }
+      },
+
+      rust_analyzer = {}
     }
 
     for name, opts in pairs(servers) do

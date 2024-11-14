@@ -1,3 +1,9 @@
-# Being experimenting with *Vim*
+# Being experimenting with NeoVim
 
-![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white&style=for-the-badge)
+Yet another NeoVim config that does pretty much all awesome things you could ever imagine.
+
+## Features
+
+* 🚀 Awesome
+* ...
+* 📦 There must be something else...
