@@ -1,8 +1,32 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   event = { "BufReadPost", "BufNewFile" },
-  config = function()
-    dofile(vim.g.base46_cache .. "treesitter")
-    require("nvim-treesitter.configs").setup()
-  end,
+  cmd = { "TSInstall", "TSBufEnable", "TSBufDisable", "TSModuleInfo" },
+  build = ":TSUpdate",
+  opts = {
+    ensure_installed = {
+      "lua",
+      "luadoc",
+      "printf",
+      "vim",
+      "vimdoc",
+      "javascript",
+      "typescript",
+      "bash",
+      "rust",
+      "go"
+    },
+
+    highlight = {
+      enable = true,
+      use_languagetree = true
+    },
+
+    indent = {
+      enable = true
+    }
+  },
+  config = function(_, opts)
+    require("nvim-treesitter.configs").setup(opts)
+  end
 }
