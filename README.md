@@ -1,8 +1,8 @@
-# Being experimenting with NeoVim
+## Being experimenting with NeoVim
 
 Yet another NeoVim config that does pretty much all awesome things you could ever imagine.
 
-## Features
+### Features
 
 * 🚀 Awesome
 * ...
